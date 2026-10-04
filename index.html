@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aha0.net</title>
+<meta name="description" content="Apps and software consulting by Abdul Hannan Ahsan. Full site coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<style>
+:root { --paper:#F4F6F8; --ink:#15202B; --muted:#5A6B7A; --blue:#2B59C3; --hairline:#C9D4DE; }
+@media (prefers-color-scheme: dark) {
+  :root { --paper:#0E1B2A; --ink:#E8EEF4; --muted:#93A5B5; --blue:#7FA8FF; --hairline:#2A3C50; }
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; min-height:100svh; display:grid; place-items:center;
+  background:var(--paper); color:var(--ink);
+  font-family:"Archivo",system-ui,sans-serif; line-height:1.6;
+}
+main { max-width:34rem; padding:2rem 1.25rem; }
+.wordmark { font-weight:800; font-variation-settings:"wdth" 120; font-size:1.15rem; margin:0 0 2.2rem; }
+.wordmark span { color:var(--blue); }
+h1 {
+  font-size:clamp(2rem,7vw,2.8rem); font-weight:700; line-height:1.15;
+  letter-spacing:-0.015em; font-variation-settings:"wdth" 115; margin:0 0 0.4rem;
+}
+.tick-rule {
+  height:11px; margin:1.1rem 0 1.5rem;
+  background:
+    repeating-linear-gradient(90deg, var(--blue) 0, var(--blue) 1px, transparent 1px, transparent 28px),
+    linear-gradient(var(--blue), var(--blue)) 0 100% / 100% 1px no-repeat;
+}
+p { color:var(--muted); margin:0 0 1rem; }
+a { color:var(--blue); text-decoration-thickness:1px; text-underline-offset:3px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="wordmark">aha0<span>.net</span></p>
+  <h1>Hello.</h1>
+  <div class="tick-rule" aria-hidden="true"></div>
+  <p>aha0.net is online</p>
+  <p>contact: <a href="mailto:support@aha0.net">support@aha0.net</a></p>
+</main>
+</body>
+</html>
