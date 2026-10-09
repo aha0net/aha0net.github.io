@@ -5,41 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>zeste support</title>
 <meta name="description" content="Help for zeste, the iPhone app that adds your voice to your photos and videos.">
-<style>
-:root { --paper:#F4F6F8; --ink:#15202B; --muted:#5A6B7A; --blue:#2B59C3; --hairline:#C9D4DE; }
-@media (prefers-color-scheme: dark) {
-  :root { --paper:#0E1B2A; --ink:#E8EEF4; --muted:#93A5B5; --blue:#7FA8FF; --hairline:#2A3C50; }
-}
-* { box-sizing:border-box; }
-body {
-  margin:0; min-height:100svh;
-  background:var(--paper); color:var(--ink);
-  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.6;
-}
-main { max-width:34rem; margin:0 auto; padding:2rem 1.25rem 4rem; }
-.wordmark { font-weight:800; font-size:1.15rem; margin:0 0 2.2rem; }
-.wordmark span { color:var(--blue); }
-.wordmark a { color:inherit; text-decoration:none; }
-h1 {
-  font-size:clamp(1.8rem,6vw,2.4rem); font-weight:700; line-height:1.15;
-  letter-spacing:-0.015em; margin:0 0 0.4rem;
-}
-.lead { color:var(--muted); margin:0; }
-.tick-rule {
-  height:11px; margin:1.1rem 0 1.5rem;
-  background:
-    repeating-linear-gradient(90deg, var(--blue) 0, var(--blue) 1px, transparent 1px, transparent 28px),
-    linear-gradient(var(--blue), var(--blue)) 0 100% / 100% 1px no-repeat;
-}
-h2 { font-size:1.05rem; font-weight:700; margin:1.8rem 0 0.4rem; }
-p { color:var(--muted); margin:0 0 1rem; }
-a { color:var(--blue); text-decoration-thickness:1px; text-underline-offset:3px; }
-</style>
+<meta name="color-scheme" content="light">
+<link rel="stylesheet" href="../../assets/aha0/brand.css">
+<script src="../../assets/aha0/brand.js" defer></script>
 </head>
 <body>
-<main>
-  <p class="wordmark"><a href="/">aha0<span>.net</span></a></p>
-  <h1>zeste support</h1>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="identity">
+    <a class="wordmark" href="/" aria-label="aha0.net home">aha<span class="zero">0</span><span class="domain-dot">.</span>net</a>
+    <p class="tagline"><span class="tagline-text">ambient autonomy</span></p>
+  </div>
+  <nav class="site-nav" aria-label="Zeste pages"><a href="/zeste/support/" aria-current="page">Support</a><a href="/zeste/privacy/">Privacy</a></nav>
+</header>
+<main class="document" id="main">
+<h1>zeste support</h1>
   <p class="lead">Help with the app, and how to reach us.</p>
   <div class="tick-rule" aria-hidden="true"></div>
 
@@ -76,5 +56,10 @@ a { color:var(--blue); text-decoration-thickness:1px; text-underline-offset:3px;
   <p><a href="mailto:support@aha0.net">support@aha0.net</a></p>
   <p>Tell us which iPhone and iOS version you have and what you were doing when something went wrong. We reply as soon as we can.</p>
 </main>
+<footer class="site-footer">
+  <a href="mailto:support@aha0.net">support@aha0.net</a>
+  <nav aria-label="Zeste footer"><a href="/zeste/support/" aria-current="page">Support</a><a href="/zeste/privacy/">Privacy</a></nav>
+</footer>
+<script type="application/json" id="page-build">{"createdAt":"2026-10-08T20:02:22-04:00"}</script>
 </body>
 </html>

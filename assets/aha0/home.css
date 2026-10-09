@@ -1,0 +1,10 @@
+.home { min-height: 100svh; display: flex; align-items: center; justify-content: center; padding: 56px 28px; }
+.home .identity { width: clamp(222px, 27.7vw, 319px); max-width: 100%; font-size: clamp(50px, 6.3vw, 73px); transform: translateY(-24px); }
+.home .wordmark { margin: 0; font-size: 1em; }
+.home .tagline { font-size: .295em; }
+@media (max-width: 600px) { .home { padding-inline: 24px; } }
+
+/* These palettes apply only to the minimal homepage. */
+:root[data-theme="mist"] { --paper: #eef2f5; --ink: #23313c; --maroon: #3c6688; --tagline: #566979; }
+:root[data-theme="graphite"] { --paper: #1a1d21; --ink: #f0f2f3; --maroon: #d298ac; --tagline: #bfc3c9; }
+:root[data-theme="wine"] { --paper: #542e3d; --ink: #fcf5f7; --maroon: #e2b3c1; --tagline: #dac5cd; }
